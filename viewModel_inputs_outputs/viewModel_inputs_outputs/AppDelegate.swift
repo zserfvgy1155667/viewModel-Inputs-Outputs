@@ -10,10 +10,23 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    
+    var appCoordinator: AppCoordinator?
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // iOS13 生成流程
+        if #available(iOS 13.0, *) {
+            // iOS 13 的設定會在 SceneDelegate 被執行
+        } else {
+            
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            
+            appCoordinator = AppCoordinator(window: window ?? .init())
+            appCoordinator?.start()
+        }
+        
         return true
     }
 
