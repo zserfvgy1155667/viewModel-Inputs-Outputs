@@ -94,9 +94,8 @@ class BaseViewController: UIViewController {
             for: .touchUpInside
         )
         
+        // 安裝自訂返回按鈕
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backBtn)
-        
-        // navigationcontroller.pushtViewcontrollers
         if (navigationController?.viewControllers.count ?? 0) > 1 && isPopView {
             onBackButtonTapTrigger = { [weak self] in
                 self?.navigationController?.popViewController(animated: true)

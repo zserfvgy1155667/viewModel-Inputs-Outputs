@@ -25,16 +25,27 @@ class LoginViewModel: LoginViewModelType, LoginViewModelInputs, LoginViewModelOu
     weak var outputs: Output? { self }
     
     
+    /// 最小玩家數量
+    let minPlayersCount: Int
+    /// 最大玩家數量
+    let maxPlayersCount: Int
+    
+    /// 目前玩家數量
+    private var playersCount: Int = 0
+    
+    
+    /// 建構子
+    /// - Parameters:
+    ///   - minPlayersCount: 最小玩家數量
+    ///   - maxPlayersCount: 最大玩家數量
+    init(minPlayersCount: Int, maxPlayersCount: Int) {
+        self.minPlayersCount = minPlayersCount
+        self.maxPlayersCount = maxPlayersCount
+    }
+
     // MARK: Output
     var focusInput: (() -> Void)?
     var updateInputText: ((String) -> Void)?
-    
-    /// 最小玩家數量 (有空可以改成建構子傳值)
-    let minPlayersCount: Int = 2
-    /// 最大玩家數量 (有空可以改成建構子傳值)
-    let maxPlayersCount: Int = 20
-    /// 目前玩家數量
-    private var playersCount: Int = 0
     
     
     // MARK: Input

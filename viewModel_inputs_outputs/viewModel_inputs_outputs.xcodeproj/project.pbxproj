@@ -11,8 +11,6 @@
 		27370C322BC4299800A2C133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27370C312BC4299800A2C133 /* SceneDelegate.swift */; };
 		27370C392BC4299900A2C133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27370C382BC4299900A2C133 /* Assets.xcassets */; };
 		27370C3C2BC4299900A2C133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27370C3A2BC4299900A2C133 /* LaunchScreen.storyboard */; };
-		274D045A2BC6CBFF00790194 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274D04582BC6CBFF00790194 /* MainViewController.swift */; };
-		274D045B2BC6CBFF00790194 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274D04592BC6CBFF00790194 /* MainViewController.xib */; };
 		2787A3502BE743B3003D60D7 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A34F2BE743B3003D60D7 /* BaseCoordinator.swift */; };
 		2787A3522BE74464003D60D7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A3512BE74464003D60D7 /* BaseViewController.swift */; };
 		2787A3542BE74547003D60D7 /* FadeViewControllerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A3532BE74547003D60D7 /* FadeViewControllerTransition.swift */; };
@@ -38,6 +36,27 @@
 		2787A38A2BE78402003D60D7 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A3892BE78402003D60D7 /* GameViewModel.swift */; };
 		2787A38F2BE7B012003D60D7 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A38E2BE7B012003D60D7 /* CardType.swift */; };
 		2787A3922BE7B0F5003D60D7 /* CardTipCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A3912BE7B0F5003D60D7 /* CardTipCollectionView.swift */; };
+		CE0732E52BEB1A9B00D9F8AD /* TextButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0732E32BEB1A9B00D9F8AD /* TextButtonCell.swift */; };
+		CE0732E62BEB1A9B00D9F8AD /* TextButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0732E42BEB1A9B00D9F8AD /* TextButtonCell.xib */; };
+		CE0732E82BEB1BFD00D9F8AD /* TextButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0732E72BEB1BFD00D9F8AD /* TextButtonItem.swift */; };
+		CE43A23E2BEC5383001A114C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43A23D2BEC5383001A114C /* Utils.swift */; };
+		CE50B0E02BE9BA9F007DF8BE /* CardTipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0DF2BE9BA9F007DF8BE /* CardTipViewModel.swift */; };
+		CE50B0E42BE9D0D8007DF8BE /* SelectCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0E32BE9D0D8007DF8BE /* SelectCardCollectionView.swift */; };
+		CE50B0E82BE9D36E007DF8BE /* PickerCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0E62BE9D36E007DF8BE /* PickerCardCell.swift */; };
+		CE50B0E92BE9D36E007DF8BE /* PickerCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50B0E72BE9D36E007DF8BE /* PickerCardCell.xib */; };
+		CE50B0EB2BE9D5ED007DF8BE /* PickerCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0EA2BE9D5ED007DF8BE /* PickerCardItem.swift */; };
+		CE50B0ED2BE9DEF9007DF8BE /* SelectCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0EC2BE9DEF9007DF8BE /* SelectCardViewModel.swift */; };
+		CE50B0F02BEA1B23007DF8BE /* PlayerTipCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0EF2BEA1B23007DF8BE /* PlayerTipCollectionView.swift */; };
+		CE50B0F42BEA1C8A007DF8BE /* PlayerTipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0F22BEA1C8A007DF8BE /* PlayerTipCell.swift */; };
+		CE50B0F52BEA1C8A007DF8BE /* PlayerTipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50B0F32BEA1C8A007DF8BE /* PlayerTipCell.xib */; };
+		CE50B0F72BEA20A3007DF8BE /* PlayerTipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0F62BEA20A3007DF8BE /* PlayerTipItem.swift */; };
+		CE50B0F92BEA3582007DF8BE /* PlayerTipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0F82BEA3582007DF8BE /* PlayerTipViewModel.swift */; };
+		CE50B0FB2BEA46DD007DF8BE /* GameTurnResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0FA2BEA46DD007DF8BE /* GameTurnResult.swift */; };
+		CE50B0FD2BEA4BF1007DF8BE /* GameStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50B0FC2BEA4BF1007DF8BE /* GameStatus.swift */; };
+		CECD98EA2BE8C54B002C5FCA /* CardTipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD98E82BE8C54B002C5FCA /* CardTipCell.swift */; };
+		CECD98EB2BE8C54B002C5FCA /* CardTipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD98E92BE8C54B002C5FCA /* CardTipCell.xib */; };
+		CECD98EE2BE8C793002C5FCA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD98ED2BE8C793002C5FCA /* Item.swift */; };
+		CECD98F02BE8CC1E002C5FCA /* CardTipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD98EF2BE8CC1E002C5FCA /* CardTipItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +66,6 @@
 		27370C382BC4299900A2C133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27370C3B2BC4299900A2C133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27370C3D2BC4299900A2C133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		274D04582BC6CBFF00790194 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		274D04592BC6CBFF00790194 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		2787A34F2BE743B3003D60D7 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		2787A3512BE74464003D60D7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2787A3532BE74547003D60D7 /* FadeViewControllerTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeViewControllerTransition.swift; sourceTree = "<group>"; };
@@ -74,6 +91,27 @@
 		2787A3892BE78402003D60D7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		2787A38E2BE7B012003D60D7 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
 		2787A3912BE7B0F5003D60D7 /* CardTipCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTipCollectionView.swift; sourceTree = "<group>"; };
+		CE0732E32BEB1A9B00D9F8AD /* TextButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonCell.swift; sourceTree = "<group>"; };
+		CE0732E42BEB1A9B00D9F8AD /* TextButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextButtonCell.xib; sourceTree = "<group>"; };
+		CE0732E72BEB1BFD00D9F8AD /* TextButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonItem.swift; sourceTree = "<group>"; };
+		CE43A23D2BEC5383001A114C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CE50B0DF2BE9BA9F007DF8BE /* CardTipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTipViewModel.swift; sourceTree = "<group>"; };
+		CE50B0E32BE9D0D8007DF8BE /* SelectCardCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCardCollectionView.swift; sourceTree = "<group>"; };
+		CE50B0E62BE9D36E007DF8BE /* PickerCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCardCell.swift; sourceTree = "<group>"; };
+		CE50B0E72BE9D36E007DF8BE /* PickerCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerCardCell.xib; sourceTree = "<group>"; };
+		CE50B0EA2BE9D5ED007DF8BE /* PickerCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCardItem.swift; sourceTree = "<group>"; };
+		CE50B0EC2BE9DEF9007DF8BE /* SelectCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCardViewModel.swift; sourceTree = "<group>"; };
+		CE50B0EF2BEA1B23007DF8BE /* PlayerTipCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTipCollectionView.swift; sourceTree = "<group>"; };
+		CE50B0F22BEA1C8A007DF8BE /* PlayerTipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTipCell.swift; sourceTree = "<group>"; };
+		CE50B0F32BEA1C8A007DF8BE /* PlayerTipCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTipCell.xib; sourceTree = "<group>"; };
+		CE50B0F62BEA20A3007DF8BE /* PlayerTipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTipItem.swift; sourceTree = "<group>"; };
+		CE50B0F82BEA3582007DF8BE /* PlayerTipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTipViewModel.swift; sourceTree = "<group>"; };
+		CE50B0FA2BEA46DD007DF8BE /* GameTurnResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTurnResult.swift; sourceTree = "<group>"; };
+		CE50B0FC2BEA4BF1007DF8BE /* GameStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatus.swift; sourceTree = "<group>"; };
+		CECD98E82BE8C54B002C5FCA /* CardTipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTipCell.swift; sourceTree = "<group>"; };
+		CECD98E92BE8C54B002C5FCA /* CardTipCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTipCell.xib; sourceTree = "<group>"; };
+		CECD98ED2BE8C793002C5FCA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CECD98EF2BE8CC1E002C5FCA /* CardTipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTipItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +156,6 @@
 				27370C382BC4299900A2C133 /* Assets.xcassets */,
 				27370C3A2BC4299900A2C133 /* LaunchScreen.storyboard */,
 				27370C3D2BC4299900A2C133 /* Info.plist */,
-				274D04582BC6CBFF00790194 /* MainViewController.swift */,
-				274D04592BC6CBFF00790194 /* MainViewController.xib */,
 			);
 			path = viewModel_inputs_outputs;
 			sourceTree = "<group>";
@@ -145,6 +181,7 @@
 		2787A34D2BE7433F003D60D7 /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				CECD98EC2BE8C77D002C5FCA /* UICollectionView */,
 				2787A3802BE75CF7003D60D7 /* UITextField */,
 				2787A3532BE74547003D60D7 /* FadeViewControllerTransition.swift */,
 				2787A36D2BE74DE6003D60D7 /* String+Common.swift */,
@@ -168,6 +205,7 @@
 			children = (
 				2787A3582BE7493F003D60D7 /* KeyboardHandler.swift */,
 				2787A35A2BE7497A003D60D7 /* Helpers.swift */,
+				CE43A23D2BEC5383001A114C /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -206,6 +244,7 @@
 			children = (
 				2787A38D2BE7AFD6003D60D7 /* Data */,
 				2787A38B2BE7AF80003D60D7 /* View */,
+				CE50B0DE2BE9BA87007DF8BE /* ViewModel */,
 				2787A3832BE77EF7003D60D7 /* GameCoordinator.swift */,
 				2787A3852BE78001003D60D7 /* GameViewController.swift */,
 				2787A3862BE78001003D60D7 /* GameViewController.xib */,
@@ -233,6 +272,8 @@
 		2787A38C2BE7AF8B003D60D7 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				CE50B0EE2BEA1B06007DF8BE /* PlayerTip */,
+				CE50B0E12BE9D0A5007DF8BE /* SelectCard */,
 				2787A3902BE7B0DB003D60D7 /* CardTip */,
 			);
 			path = CollectionView;
@@ -242,6 +283,8 @@
 			isa = PBXGroup;
 			children = (
 				2787A38E2BE7B012003D60D7 /* CardType.swift */,
+				CE50B0FA2BEA46DD007DF8BE /* GameTurnResult.swift */,
+				CE50B0FC2BEA4BF1007DF8BE /* GameStatus.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -249,9 +292,79 @@
 		2787A3902BE7B0DB003D60D7 /* CardTip */ = {
 			isa = PBXGroup;
 			children = (
+				CECD98E72BE8C318002C5FCA /* Cell */,
 				2787A3912BE7B0F5003D60D7 /* CardTipCollectionView.swift */,
 			);
 			path = CardTip;
+			sourceTree = "<group>";
+		};
+		CE50B0DE2BE9BA87007DF8BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE50B0DF2BE9BA9F007DF8BE /* CardTipViewModel.swift */,
+				CE50B0EC2BE9DEF9007DF8BE /* SelectCardViewModel.swift */,
+				CE50B0F82BEA3582007DF8BE /* PlayerTipViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE50B0E12BE9D0A5007DF8BE /* SelectCard */ = {
+			isa = PBXGroup;
+			children = (
+				CE50B0E52BE9D32F007DF8BE /* Cell */,
+				CE50B0E32BE9D0D8007DF8BE /* SelectCardCollectionView.swift */,
+			);
+			path = SelectCard;
+			sourceTree = "<group>";
+		};
+		CE50B0E52BE9D32F007DF8BE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE50B0E62BE9D36E007DF8BE /* PickerCardCell.swift */,
+				CE50B0E72BE9D36E007DF8BE /* PickerCardCell.xib */,
+				CE50B0EA2BE9D5ED007DF8BE /* PickerCardItem.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE50B0EE2BEA1B06007DF8BE /* PlayerTip */ = {
+			isa = PBXGroup;
+			children = (
+				CE50B0F12BEA1B5C007DF8BE /* Cell */,
+				CE50B0EF2BEA1B23007DF8BE /* PlayerTipCollectionView.swift */,
+			);
+			path = PlayerTip;
+			sourceTree = "<group>";
+		};
+		CE50B0F12BEA1B5C007DF8BE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE50B0F22BEA1C8A007DF8BE /* PlayerTipCell.swift */,
+				CE50B0F32BEA1C8A007DF8BE /* PlayerTipCell.xib */,
+				CE50B0F62BEA20A3007DF8BE /* PlayerTipItem.swift */,
+				CE0732E32BEB1A9B00D9F8AD /* TextButtonCell.swift */,
+				CE0732E42BEB1A9B00D9F8AD /* TextButtonCell.xib */,
+				CE0732E72BEB1BFD00D9F8AD /* TextButtonItem.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CECD98E72BE8C318002C5FCA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CECD98E82BE8C54B002C5FCA /* CardTipCell.swift */,
+				CECD98E92BE8C54B002C5FCA /* CardTipCell.xib */,
+				CECD98EF2BE8CC1E002C5FCA /* CardTipItem.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CECD98EC2BE8C77D002C5FCA /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CECD98ED2BE8C793002C5FCA /* Item.swift */,
+			);
+			path = UICollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,10 +425,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECD98EB2BE8C54B002C5FCA /* CardTipCell.xib in Resources */,
+				CE50B0F52BEA1C8A007DF8BE /* PlayerTipCell.xib in Resources */,
 				2787A37B2BE753B1003D60D7 /* LoginViewController.xib in Resources */,
 				27370C3C2BC4299900A2C133 /* LaunchScreen.storyboard in Resources */,
+				CE50B0E92BE9D36E007DF8BE /* PickerCardCell.xib in Resources */,
 				2787A3882BE78001003D60D7 /* GameViewController.xib in Resources */,
-				274D045B2BC6CBFF00790194 /* MainViewController.xib in Resources */,
+				CE0732E62BEB1A9B00D9F8AD /* TextButtonCell.xib in Resources */,
 				27370C392BC4299900A2C133 /* Assets.xcassets in Resources */,
 				2787A3642BE74B87003D60D7 /* Light.xcassets in Resources */,
 			);
@@ -329,26 +445,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				2787A3542BE74547003D60D7 /* FadeViewControllerTransition.swift in Sources */,
+				CE50B0E02BE9BA9F007DF8BE /* CardTipViewModel.swift in Sources */,
+				CE50B0FD2BEA4BF1007DF8BE /* GameStatus.swift in Sources */,
 				2787A3922BE7B0F5003D60D7 /* CardTipCollectionView.swift in Sources */,
 				2787A36E2BE74DE6003D60D7 /* String+Common.swift in Sources */,
 				2787A3522BE74464003D60D7 /* BaseViewController.swift in Sources */,
 				2787A3842BE77EF7003D60D7 /* GameCoordinator.swift in Sources */,
 				2787A3702BE74F41003D60D7 /* WKNavigationController.swift in Sources */,
 				2787A38F2BE7B012003D60D7 /* CardType.swift in Sources */,
-				274D045A2BC6CBFF00790194 /* MainViewController.swift in Sources */,
 				2787A3822BE75D07003D60D7 /* UITextField+Extension.swift in Sources */,
+				CE50B0F42BEA1C8A007DF8BE /* PlayerTipCell.swift in Sources */,
 				27370C302BC4299800A2C133 /* AppDelegate.swift in Sources */,
+				CECD98EE2BE8C793002C5FCA /* Item.swift in Sources */,
 				2787A37D2BE7547B003D60D7 /* AppCoordinator.swift in Sources */,
+				CECD98EA2BE8C54B002C5FCA /* CardTipCell.swift in Sources */,
 				2787A38A2BE78402003D60D7 /* GameViewModel.swift in Sources */,
+				CE43A23E2BEC5383001A114C /* Utils.swift in Sources */,
 				2787A3672BE74BF6003D60D7 /* Theme.swift in Sources */,
 				2787A35B2BE7497A003D60D7 /* Helpers.swift in Sources */,
+				CE50B0F92BEA3582007DF8BE /* PlayerTipViewModel.swift in Sources */,
+				CE50B0FB2BEA46DD007DF8BE /* GameTurnResult.swift in Sources */,
+				CE50B0E82BE9D36E007DF8BE /* PickerCardCell.swift in Sources */,
 				2787A3632BE74B87003D60D7 /* IconTheme.swift in Sources */,
+				CE0732E82BEB1BFD00D9F8AD /* TextButtonItem.swift in Sources */,
 				2787A3722BE75000003D60D7 /* UIColor+Extension.swift in Sources */,
 				27370C322BC4299800A2C133 /* SceneDelegate.swift in Sources */,
 				2787A3502BE743B3003D60D7 /* BaseCoordinator.swift in Sources */,
+				CE50B0F72BEA20A3007DF8BE /* PlayerTipItem.swift in Sources */,
+				CE50B0EB2BE9D5ED007DF8BE /* PickerCardItem.swift in Sources */,
 				2787A3562BE7472A003D60D7 /* BaseCoordinatorResultType.swift in Sources */,
 				2787A37A2BE753B1003D60D7 /* LoginViewController.swift in Sources */,
+				CECD98F02BE8CC1E002C5FCA /* CardTipItem.swift in Sources */,
+				CE50B0E42BE9D0D8007DF8BE /* SelectCardCollectionView.swift in Sources */,
+				CE0732E52BEB1A9B00D9F8AD /* TextButtonCell.swift in Sources */,
+				CE50B0F02BEA1B23007DF8BE /* PlayerTipCollectionView.swift in Sources */,
 				2787A3592BE7493F003D60D7 /* KeyboardHandler.swift in Sources */,
+				CE50B0ED2BE9DEF9007DF8BE /* SelectCardViewModel.swift in Sources */,
 				2787A3762BE75328003D60D7 /* LoginCoordinator.swift in Sources */,
 				2787A37F2BE75AC7003D60D7 /* LoginViewModel.swift in Sources */,
 				2787A3872BE78001003D60D7 /* GameViewController.swift in Sources */,

@@ -14,14 +14,14 @@ class AppCoordinator: BaseCoordinatorType<Void> {
     
     var coordinatorRootVC: UIViewController { navi }
     
-    private let window: UIWindow
-    
     var navi: WKNavigationController = {
         let vc = UIViewController()
         let navi = WKNavigationController(rootViewController: vc)
         navi.navigationBar.isHidden = true
         return navi
     }()
+    
+    private let window: UIWindow
     
     
     init(window: UIWindow) {
@@ -48,19 +48,13 @@ class AppCoordinator: BaseCoordinatorType<Void> {
     /// 切換登入或遊戲主頁
     func route(isInGame: Bool = false) {
         if isInGame {
-            #warning("mike-待補。")
+            #warning("mike-本地緩存，待補。")
         }
         else {
             let login = LoginCoordinator(rootViewController: coordinatorRootVC)
             coordinate(to: login)
-            login.onDisposeComplete = { [weak self] result in
-                guard let self else { return }
-                switch result {
-                case .game(let playerName):
-                    #warning("mike-進入遊戲")
-                default:
-                    self.completeEvent(())
-                }
+            login.onDisposeComplete = { [weak self] _ in
+                self?.completeEvent(())
             }
         }
     }

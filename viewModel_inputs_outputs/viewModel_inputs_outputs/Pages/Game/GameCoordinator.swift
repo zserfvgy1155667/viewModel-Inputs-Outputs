@@ -7,7 +7,7 @@
 
 import UIKit
 
-/// 登入頁面導入口
+/// 遊戲頁面導入口
 class GameCoordinator: BaseCoordinatorType<BaseCoordinatorResultType> {
     
     var coordinatorRootVC: UIViewController { navi }
@@ -21,17 +21,20 @@ class GameCoordinator: BaseCoordinatorType<BaseCoordinatorResultType> {
     
     init(rootViewController: UIViewController, playerNames: [String]) {
         self.rootViewController = rootViewController
-        vc = .init(playerNames: playerNames)
+        
+        vc = .init(
+            playerNames: playerNames,
+            pkRaceCount: Utils.pkRaceCount,
+            pkPlayerCount: Utils.pkPlayerCount,
+            cardTypeMinCount: Utils.cardTypeMinCount,
+            cardTotalCount: Utils.cardTotalCount
+        )
         
         navi = WKNavigationController(rootViewController: vc)
         navi.navigationBar.isHidden = false
         navi.modalPresentationStyle = .overFullScreen
         
         super.init()
-    }
-    
-    deinit {
-        print("deiniting \(self)")
     }
     
     override func start() {

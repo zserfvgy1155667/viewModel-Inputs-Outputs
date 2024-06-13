@@ -24,12 +24,8 @@ class BaseCoordinator<RouteType>: NSObject, UIViewControllerTransitioningDelegat
     
     /// 緩存的導入口
     var childCoordinators = [UUID : BaseCoordinatorProtocol]()
-    
     /// 最外層回呼
     var onDisposeComplete: ((RouteType) -> Void)?
-    
-    /// bottom sheet 動畫
-    var isBottomSheetTransition: Bool = false
     
     /// coordinator
     lazy var completeEvent: ((RouteType) -> Void) = {
@@ -38,6 +34,7 @@ class BaseCoordinator<RouteType>: NSObject, UIViewControllerTransitioningDelegat
             self?.onDisposeComplete?(type)
         }
     }()
+    
     
     /// 記錄唯一值
     private let identifier = UUID()

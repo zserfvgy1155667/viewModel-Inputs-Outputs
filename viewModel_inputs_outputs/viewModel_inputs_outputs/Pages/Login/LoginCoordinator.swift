@@ -20,9 +20,13 @@ class LoginCoordinator: BaseCoordinatorType<BaseCoordinatorResultType> {
     
     
     init(rootViewController: UIViewController) {
-        self.rootViewController = rootViewController
-        vc = .init()
         
+        self.rootViewController = rootViewController
+        
+        vc = .init(
+            minPlayersCount: Utils.minPlayersCount,
+            maxPlayersCount: Utils.maxPlayersCount
+        )
         navi = WKNavigationController(rootViewController: vc)
 
         super.init()
@@ -30,10 +34,6 @@ class LoginCoordinator: BaseCoordinatorType<BaseCoordinatorResultType> {
         navi.modalPresentationStyle = .overFullScreen
         navi.transitioningDelegate = self
         navi.navigationBar.isHidden = true
-    }
-    
-    deinit {
-        print("deiniting \(self)")
     }
     
     override func start() {

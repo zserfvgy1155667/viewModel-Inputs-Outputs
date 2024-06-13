@@ -20,7 +20,19 @@ class LoginViewController: BaseViewController {
     /// 輸入框
     @IBOutlet weak var textField: UITextField! {
         didSet {
-            textField.placeholder = "人數 (上限: \(viewModel.maxPlayersCount))" // 可以實作在 viewModel outputs
+            
+            // 可以實作在 viewModel outputs
+            let placeholder = "人數 (上限: \(viewModel.maxPlayersCount))"
+            textField.attributedPlaceholder = NSAttributedString(
+                string: placeholder,
+                attributes: [NSAttributedString.Key.foregroundColor : UIColor.lightGray]
+            )
+            
+            textField.borderStyle = .roundedRect
+            textField.textColor = .gray
+            textField.layer.borderWidth = 0.5
+            textField.layer.borderColor = UIColor.lightGray.cgColor
+            
             textField.addDoneTooleBar()
         }
     }
@@ -32,8 +44,25 @@ class LoginViewController: BaseViewController {
     }
     
     
-    let viewModel = LoginViewModel()
+    let viewModel: LoginViewModel
     
+    
+    /// 建構子
+    /// - Parameters:
+    ///   - minPlayersCount: 最小玩家數量
+    ///   - maxPlayersCount: 最大玩家數量
+    init(minPlayersCount: Int, maxPlayersCount: Int) {
+        viewModel = .init(
+            minPlayersCount: minPlayersCount,
+            maxPlayersCount: maxPlayersCount
+        )
+        
+        super.init()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
