@@ -36,6 +36,16 @@
 		2787A38A2BE78402003D60D7 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A3892BE78402003D60D7 /* GameViewModel.swift */; };
 		2787A38F2BE7B012003D60D7 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A38E2BE7B012003D60D7 /* CardType.swift */; };
 		2787A3922BE7B0F5003D60D7 /* CardTipCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787A3912BE7B0F5003D60D7 /* CardTipCollectionView.swift */; };
+		27AB1D432C1B259A0060A485 /* ThemeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D422C1B259A0060A485 /* ThemeAction.swift */; };
+		27AB1D462C1B26260060A485 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D452C1B26260060A485 /* LanguageManager.swift */; };
+		27AB1D4A2C1B26A10060A485 /* Enum+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D492C1B26A10060A485 /* Enum+Language.swift */; };
+		27AB1D4C2C1B273F0060A485 /* LocalizationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D4B2C1B273F0060A485 /* LocalizationList.swift */; };
+		27AB1D4E2C1B28DD0060A485 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D4D2C1B28DD0060A485 /* String+Extension.swift */; };
+		27AB1D502C1F05860060A485 /* Notification+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D4F2C1F05860060A485 /* Notification+Common.swift */; };
+		27AB1D522C1F09240060A485 /* Language+Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D512C1F09240060A485 /* Language+Resources.swift */; };
+		27AB1D552C1F0AED0060A485 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D542C1F0AED0060A485 /* ColorTheme.swift */; };
+		27AB1D592C1F0D4D0060A485 /* ThemeProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AB1D582C1F0D4D0060A485 /* ThemeProxy.swift */; };
+		27AB1D5B2C1F0D7F0060A485 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 27AB1D5A2C1F0D7F0060A485 /* Extension */; };
 		CE0732E52BEB1A9B00D9F8AD /* TextButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0732E32BEB1A9B00D9F8AD /* TextButtonCell.swift */; };
 		CE0732E62BEB1A9B00D9F8AD /* TextButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0732E42BEB1A9B00D9F8AD /* TextButtonCell.xib */; };
 		CE0732E82BEB1BFD00D9F8AD /* TextButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0732E72BEB1BFD00D9F8AD /* TextButtonItem.swift */; };
@@ -91,6 +101,16 @@
 		2787A3892BE78402003D60D7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		2787A38E2BE7B012003D60D7 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
 		2787A3912BE7B0F5003D60D7 /* CardTipCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTipCollectionView.swift; sourceTree = "<group>"; };
+		27AB1D422C1B259A0060A485 /* ThemeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAction.swift; sourceTree = "<group>"; };
+		27AB1D452C1B26260060A485 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		27AB1D492C1B26A10060A485 /* Enum+Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+Language.swift"; sourceTree = "<group>"; };
+		27AB1D4B2C1B273F0060A485 /* LocalizationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationList.swift; sourceTree = "<group>"; };
+		27AB1D4D2C1B28DD0060A485 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		27AB1D4F2C1F05860060A485 /* Notification+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Common.swift"; sourceTree = "<group>"; };
+		27AB1D512C1F09240060A485 /* Language+Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+Resources.swift"; sourceTree = "<group>"; };
+		27AB1D542C1F0AED0060A485 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		27AB1D582C1F0D4D0060A485 /* ThemeProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeProxy.swift; sourceTree = "<group>"; };
+		27AB1D5A2C1F0D7F0060A485 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
 		CE0732E32BEB1A9B00D9F8AD /* TextButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonCell.swift; sourceTree = "<group>"; };
 		CE0732E42BEB1A9B00D9F8AD /* TextButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextButtonCell.xib; sourceTree = "<group>"; };
 		CE0732E72BEB1BFD00D9F8AD /* TextButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonItem.swift; sourceTree = "<group>"; };
@@ -144,8 +164,8 @@
 		27370C2E2BC4299800A2C133 /* viewModel_inputs_outputs */ = {
 			isa = PBXGroup;
 			children = (
-				2787A35C2BE74B34003D60D7 /* Resources */,
 				2787A3652BE74BDB003D60D7 /* Theme */,
+				2787A35C2BE74B34003D60D7 /* Resources */,
 				2787A34C2BE7432E003D60D7 /* Pages */,
 				2787A34E2BE74390003D60D7 /* PageFrame */,
 				2787A34D2BE7433F003D60D7 /* CommonUI */,
@@ -164,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				2787A3712BE75000003D60D7 /* UIColor+Extension.swift */,
+				27AB1D4D2C1B28DD0060A485 /* String+Extension.swift */,
+				27AB1D4F2C1F05860060A485 /* Notification+Common.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -222,8 +244,13 @@
 		2787A3652BE74BDB003D60D7 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				27AB1D5A2C1F0D7F0060A485 /* Extension */,
+				27AB1D442C1B25FC0060A485 /* Language */,
+				27AB1D532C1F0AD60060A485 /* Color */,
 				2787A3662BE74BF6003D60D7 /* Theme.swift */,
 				2787A3682BE74C84003D60D7 /* ThemeManager.swift */,
+				27AB1D422C1B259A0060A485 /* ThemeAction.swift */,
+				27AB1D582C1F0D4D0060A485 /* ThemeProxy.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -296,6 +323,25 @@
 				2787A3912BE7B0F5003D60D7 /* CardTipCollectionView.swift */,
 			);
 			path = CardTip;
+			sourceTree = "<group>";
+		};
+		27AB1D442C1B25FC0060A485 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				27AB1D452C1B26260060A485 /* LanguageManager.swift */,
+				27AB1D492C1B26A10060A485 /* Enum+Language.swift */,
+				27AB1D4B2C1B273F0060A485 /* LocalizationList.swift */,
+				27AB1D512C1F09240060A485 /* Language+Resources.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		27AB1D532C1F0AD60060A485 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				27AB1D542C1F0AED0060A485 /* ColorTheme.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		CE50B0DE2BE9BA87007DF8BE /* ViewModel */ = {
@@ -429,6 +475,7 @@
 				CE50B0F52BEA1C8A007DF8BE /* PlayerTipCell.xib in Resources */,
 				2787A37B2BE753B1003D60D7 /* LoginViewController.xib in Resources */,
 				27370C3C2BC4299900A2C133 /* LaunchScreen.storyboard in Resources */,
+				27AB1D5B2C1F0D7F0060A485 /* Extension in Resources */,
 				CE50B0E92BE9D36E007DF8BE /* PickerCardCell.xib in Resources */,
 				2787A3882BE78001003D60D7 /* GameViewController.xib in Resources */,
 				CE0732E62BEB1A9B00D9F8AD /* TextButtonCell.xib in Resources */,
@@ -444,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AB1D592C1F0D4D0060A485 /* ThemeProxy.swift in Sources */,
 				2787A3542BE74547003D60D7 /* FadeViewControllerTransition.swift in Sources */,
 				CE50B0E02BE9BA9F007DF8BE /* CardTipViewModel.swift in Sources */,
 				CE50B0FD2BEA4BF1007DF8BE /* GameStatus.swift in Sources */,
@@ -453,11 +501,13 @@
 				2787A3842BE77EF7003D60D7 /* GameCoordinator.swift in Sources */,
 				2787A3702BE74F41003D60D7 /* WKNavigationController.swift in Sources */,
 				2787A38F2BE7B012003D60D7 /* CardType.swift in Sources */,
+				27AB1D432C1B259A0060A485 /* ThemeAction.swift in Sources */,
 				2787A3822BE75D07003D60D7 /* UITextField+Extension.swift in Sources */,
 				CE50B0F42BEA1C8A007DF8BE /* PlayerTipCell.swift in Sources */,
 				27370C302BC4299800A2C133 /* AppDelegate.swift in Sources */,
 				CECD98EE2BE8C793002C5FCA /* Item.swift in Sources */,
 				2787A37D2BE7547B003D60D7 /* AppCoordinator.swift in Sources */,
+				27AB1D502C1F05860060A485 /* Notification+Common.swift in Sources */,
 				CECD98EA2BE8C54B002C5FCA /* CardTipCell.swift in Sources */,
 				2787A38A2BE78402003D60D7 /* GameViewModel.swift in Sources */,
 				CE43A23E2BEC5383001A114C /* Utils.swift in Sources */,
@@ -472,12 +522,18 @@
 				27370C322BC4299800A2C133 /* SceneDelegate.swift in Sources */,
 				2787A3502BE743B3003D60D7 /* BaseCoordinator.swift in Sources */,
 				CE50B0F72BEA20A3007DF8BE /* PlayerTipItem.swift in Sources */,
+				27AB1D4A2C1B26A10060A485 /* Enum+Language.swift in Sources */,
 				CE50B0EB2BE9D5ED007DF8BE /* PickerCardItem.swift in Sources */,
 				2787A3562BE7472A003D60D7 /* BaseCoordinatorResultType.swift in Sources */,
 				2787A37A2BE753B1003D60D7 /* LoginViewController.swift in Sources */,
 				CECD98F02BE8CC1E002C5FCA /* CardTipItem.swift in Sources */,
 				CE50B0E42BE9D0D8007DF8BE /* SelectCardCollectionView.swift in Sources */,
 				CE0732E52BEB1A9B00D9F8AD /* TextButtonCell.swift in Sources */,
+				27AB1D552C1F0AED0060A485 /* ColorTheme.swift in Sources */,
+				27AB1D462C1B26260060A485 /* LanguageManager.swift in Sources */,
+				27AB1D4C2C1B273F0060A485 /* LocalizationList.swift in Sources */,
+				27AB1D522C1F09240060A485 /* Language+Resources.swift in Sources */,
+				27AB1D4E2C1B28DD0060A485 /* String+Extension.swift in Sources */,
 				CE50B0F02BEA1B23007DF8BE /* PlayerTipCollectionView.swift in Sources */,
 				2787A3592BE7493F003D60D7 /* KeyboardHandler.swift in Sources */,
 				CE50B0ED2BE9DEF9007DF8BE /* SelectCardViewModel.swift in Sources */,

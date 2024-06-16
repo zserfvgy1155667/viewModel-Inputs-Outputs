@@ -9,11 +9,21 @@ import Foundation
 
 /// 主題類型 (顏色、圖片等)
 enum ThemeType {
+    
     case light
     case dark
     
-    #warning("mike-之後再補顏色等設定。")
+    /// 顏色
+    var color: ColorTheme {
+        switch self {
+        case .light:
+            return LightColorTheme()
+        case .dark:
+            return DarkColorTheme()
+        }
+    }
     
+    /// 圖片
     var image: ImageTheme {
         switch self {
         case .light:
@@ -24,5 +34,6 @@ enum ThemeType {
     }
 }
 
-/// 直接拉圖片的參數
+/// 直接拉圖片/顏色的參數
 var ImageList = ThemeManager.shared.type.image
+var ColorList = ThemeManager.shared.type.color
